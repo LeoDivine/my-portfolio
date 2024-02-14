@@ -2,6 +2,7 @@
 import { NavCloseIcon, NavOpenIcon } from "@/lib/icons";
 import React, { useState } from "react";
 import NavLinksComp from "./navlinkscomp";
+import MaxWidthCont from "./maxwidthcont";
 
 export default function Nav() {
   const [openNav, setOpenNav] = useState(false);
@@ -18,8 +19,8 @@ export default function Nav() {
           </div>
         </div>
       ) : (
-        <div className="flex justify-end pt-[20px] px-[40px] cursor-pointer">
-          {NavOpenIcon}
+        <div className="absolute right-0 pt-[20px] cursor-pointer">
+          <MaxWidthCont>{NavOpenIcon}</MaxWidthCont>
         </div>
       )}
     </div>
