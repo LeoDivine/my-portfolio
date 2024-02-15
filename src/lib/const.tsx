@@ -1,3 +1,5 @@
+import { GitHubIcon, InstagramIcon, LinkedInIcon, XIcon } from "./icons";
+
 export const NAVLINKS: INAVLINKS[] = [
   {
     linkname: "About Me",
@@ -10,5 +12,24 @@ export const NAVLINKS: INAVLINKS[] = [
   {
     linkname: "Hire Me",
     link: "",
+  },
+];
+
+export const SOCIALS: ISOCIALS[] = [
+  {
+    link: "",
+    icon: GitHubIcon,
+  },
+  {
+    link: "",
+    icon: XIcon,
+  },
+  {
+    link: "",
+    icon: InstagramIcon,
+  },
+  {
+    link: "",
+    icon: LinkedInIcon,
   },
 ];

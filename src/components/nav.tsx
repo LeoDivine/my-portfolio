@@ -7,10 +7,10 @@ import MaxWidthCont from "./maxwidthcont";
 export default function Nav() {
   const [openNav, setOpenNav] = useState(false);
   return (
-    <div onClick={() => setOpenNav(!openNav)}>
+    <div className=" z-10 relative" onClick={() => setOpenNav(!openNav)}>
       {openNav ? (
-        <div className="bg-[#0000009e] w-full top-0 fixed h-screen">
-          <div className="bg-white p-[20px] w-[90%] lg:w-[20%] rounded-[10px] absolute right-0 m-[20px] lg:mr-[40px] top-0 lg:mt-[20px]">
+        <div className="bg-[#0000009e] w-full fixed h-screen">
+          <div className="bg-white p-[20px] w-[100%] lg:w-[20%] rounded-[10px] absolute lg:right-0 lg:mr-[40px] top-0 lg:mt-[20px]">
             <div className="cursor-pointer">{NavCloseIcon}</div>
             <div className="flex flex-col items-center justify-between gap-11">
               <NavLinksComp />
@@ -19,9 +19,11 @@ export default function Nav() {
           </div>
         </div>
       ) : (
-        <div className="absolute right-0 pt-[20px] cursor-pointer">
-          <MaxWidthCont>{NavOpenIcon}</MaxWidthCont>
-        </div>
+        <MaxWidthCont>
+          <div className=" absolute right-0 mr-[] pt-[20px] cursor-pointer">
+            {NavOpenIcon}
+          </div>
+        </MaxWidthCont>
       )}
     </div>
   );

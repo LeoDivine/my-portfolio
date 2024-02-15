@@ -10,3 +10,8 @@ interface INAVLINKS {
   linkname: string;
   link: string;
 }
+
+interface ISOCIALS{
+  link: string;
+  icon: React.ReactNode;
+}

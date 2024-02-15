@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         bgColor: "#202027",
         primary: "#5858E8",
+        secondary: "#41414F",
         textField: "#6D6D87",
       },
     },
