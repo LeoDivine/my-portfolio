@@ -96,8 +96,8 @@ export const LinkedInIcon = (
 
 export const CaretDownIcon = (
   <svg
-    width="41"
-    height="37"
+    width="30"
+    height="30"
     viewBox="0 0 41 37"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"

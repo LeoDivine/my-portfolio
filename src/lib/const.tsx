@@ -33,3 +33,36 @@ export const SOCIALS: ISOCIALS[] = [
     icon: LinkedInIcon,
   },
 ];
+
+export const SKILLS: ISKILLS[] = [
+  {
+    name: "HTML",
+  },
+  {
+    name: "JAVASCRIPT",
+  },
+  {
+    name: "REACTJS",
+  },
+  {
+    name: "CSS",
+  },
+  {
+    name: "NEXTJS",
+  },
+  {
+    name: "TAILWINDCSS",
+  },
+  {
+    name: "TYPESCRIPT",
+  },
+  {
+    name: "RESPONSIVENESS",
+  },
+  {
+    name: "GITHUB",
+  },
+  {
+    name: "GIT",
+  },
+];

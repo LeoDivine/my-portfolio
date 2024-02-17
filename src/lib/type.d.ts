@@ -15,3 +15,11 @@ interface ISOCIALS{
   link: string;
   icon: React.ReactNode;
 }
+
+interface INEXTSECTION {
+  link: string;
+}
+
+interface ISKILLS {
+  name: string;
+}
