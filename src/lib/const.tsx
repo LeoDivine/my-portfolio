@@ -66,3 +66,18 @@ export const SKILLS: ISKILLS[] = [
     name: "GIT",
   },
 ];
+
+export const PROJECTS: IPROJECTS[] = [
+  {
+    image: "/dummyimage.jpeg",
+    title: "AriariaNG",
+    content: "mfdof",
+    link: "",
+  },
+  {
+    image: "/dummyimage.jpeg",
+    title: "PlatypusSolar",
+    content: "mfdof",
+    link: "",
+  },
+];

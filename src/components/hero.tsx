@@ -5,16 +5,15 @@ import Ellipse from "./ellipse";
 import { SOCIALS } from "@/lib/const";
 import SocialMedia from "./socialmedia";
 import MaxWidthCont from "@/components/maxwidthcont";
-import NextSection from "./nextsection";
 
 export default function Hero() {
   return (
     <>
       <Ellipse className="bg-secondary -left-[300px] lg:-left-[200px] mt-[40px] " />
       <MaxWidthCont>
-        <div className="flex justify-center">
-          <div className="relative mx-auto lg:flex lg:gap-4 w-full pt-[59px]">
-            <hgroup className="text-white text-center lg:text-left py-[95px]">
+        <div className="flex h-screen flex-col items-center justify-center">
+          <div className="relative mx-auto lg:flex lg:gap-4 w-full">
+            <hgroup className="text-white text-center md:text-center lg:text-left py-[218px]">
               <p className="lg:text-[18px] text-[15px]">What's good? This is</p>
               <h1 className="lg:text-[60px] text-[30px] w-full lg:w-[40%] font-bold">
                 Onyekachukwu Divine.
@@ -40,17 +39,16 @@ export default function Hero() {
                 ))}
               </div>
             </hgroup>
-            <div className="hidden lg:inline">
+            <div className="hidden md:hidden lg:inline">
               <Image
                 src="/myimage.png"
                 alt="myimage"
                 height="1000"
                 width="1000"
-                className="lg:w-[520px]"
+                className="lg:w-[480px] lg:mt-[168px]"
               />
             </div>
           </div>
-          <NextSection link="" />
         </div>
       </MaxWidthCont>
     </>

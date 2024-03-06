@@ -18,8 +18,16 @@ interface ISOCIALS{
 
 interface INEXTSECTION {
   link: string;
+  className?: string;
 }
 
 interface ISKILLS {
   name: string;
+}
+
+interface IPROJECTS {
+  image: string;
+  title: string;
+  content: string;
+  link: string;
 }
