@@ -77,7 +77,7 @@ export const PROJECTS: IPROJECTS[] = [
   {
     image: "/dummyimage.jpeg",
     title: "PlatypusSolar",
-    content: "mfdof",
+    content: "mfdormgrigirif",
     link: "",
   },
 ];
