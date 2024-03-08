@@ -3,11 +3,11 @@ import { GitHubIcon, InstagramIcon, LinkedInIcon, XIcon } from "./icons";
 export const NAVLINKS: INAVLINKS[] = [
   {
     linkname: "About Me",
-    link: "",
+    link: "#about",
   },
   {
     linkname: "My Projects",
-    link: "",
+    link: "#projects",
   },
   {
     linkname: "Hire Me",
@@ -71,7 +71,8 @@ export const PROJECTS: IPROJECTS[] = [
   {
     image: "/dummyimage.jpeg",
     title: "AriariaNG",
-    content: "mfdof",
+    content:
+      "mfdofnfnufnuefurnfrunrufnrufnrufnrufrbfybeyfbeyfeyfbeyfbeyfbebycbydbeyjff jvnr rrunru grugrugnrgu rugrugnrgnu",
     link: "",
   },
   {

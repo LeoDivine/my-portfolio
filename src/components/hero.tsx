@@ -33,7 +33,7 @@ export default function Hero() {
                   </button>
                 </Link>
               </div>
-              <div className="flex gap-3 mt-[20px] w-full lg:w-[38%] justify-center">
+              <div className="flex gap-3 mt-[20px] w-full lg:justify-start justify-center">
                 {SOCIALS.map((social, k) => (
                   <SocialMedia key={k} link={social.link} icon={social.icon} />
                 ))}

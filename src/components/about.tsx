@@ -10,7 +10,7 @@ export default function About() {
     <>
       <Ellipse className=" bg-bgColor mt-[50px] -left-[200px]" />
       <MaxWidthCont className="bg-secondary">
-        <div className="w-full z-10 pt-[100px] lg:h-screen pb-[20px] relative">
+        <div id="about" className="w-full z-10 pt-[100px] lg:h-screen pb-[20px] relative">
           <div className="flex flex-col lg:flex-row justify-center gap-7">
             <div className="w-full">
               <span className="lg:flex items-center gap-4">
