@@ -19,8 +19,8 @@ export default function Projects() {
           </span>
           <div className="">
             {PROJECTS.map((value, k) => (
-              <div key={k} className="flex mt-[50px] justify-center gap-4">
-                <div className="w-[50%]">
+              <div key={k} className="flex flex-col lg:flex-row mt-[50px] justify-center gap-4">
+                <div className="lg:w-[50%]">
                   <Image
                     className="w-full rounded-[10px] h-[400px] object-cover "
                     src={value.image}
@@ -30,8 +30,8 @@ export default function Projects() {
                   />
                 </div>
 
-                <div className="flex flex-col gap-4 w-[50%] ">
-                  <div className=" text-white text-center text-[17px] font-semibold bg-secondary px-[200px] py-[20px] rounded-[10px] ">
+                <div className="flex flex-col gap-4 lg:w-[50%] ">
+                  <div className=" text-white text-center text-[17px] font-semibold bg-secondary lg:px-[200px] py-[20px] rounded-[10px] ">
                     <h1>{value.title}</h1>
                   </div>
                   <div className=" break-words flex flex-col justify-between h-full rounded-[10px] p-[20px] text-white bg-secondary">

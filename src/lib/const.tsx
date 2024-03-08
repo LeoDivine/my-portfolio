@@ -1,4 +1,10 @@
-import { GitHubIcon, InstagramIcon, LinkedInIcon, XIcon } from "./icons";
+import {
+  EmailIcon,
+  GitHubIcon,
+  InstagramIcon,
+  LinkedInIcon,
+  XIcon,
+} from "./icons";
 
 export const NAVLINKS: INAVLINKS[] = [
   {
@@ -31,6 +37,10 @@ export const SOCIALS: ISOCIALS[] = [
   {
     link: "",
     icon: LinkedInIcon,
+  },
+  {
+    link: "",
+    icon: EmailIcon,
   },
 ];
 
