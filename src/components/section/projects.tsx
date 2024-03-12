@@ -1,9 +1,8 @@
 import React from "react";
-import MaxWidthCont from "./maxwidthcont";
+import MaxWidthCont from "../layout/maxwidthcont";
 import { PROJECTS } from "@/lib/const";
 import Image from "next/image";
 import Link from "next/link";
-import { link } from "fs";
 import { CaretRight } from "@/lib/icons";
 
 export default function Projects() {
@@ -19,7 +18,10 @@ export default function Projects() {
           </span>
           <div className="">
             {PROJECTS.map((value, k) => (
-              <div key={k} className="flex flex-col lg:flex-row mt-[50px] justify-center gap-4">
+              <div
+                key={k}
+                className="flex flex-col lg:flex-row mt-[50px] justify-center gap-4"
+              >
                 <div className="lg:w-[50%]">
                   <Image
                     className="w-full rounded-[10px] h-[400px] object-cover "
@@ -37,10 +39,11 @@ export default function Projects() {
                   <div className=" break-words flex flex-col justify-between h-full rounded-[10px] p-[20px] text-white bg-secondary">
                     <p>{value.content}</p>
                     <Link
-                      className=" flex items-center gap-2 text-primary font-bold text-[15px]"
+                      className=" group flex items-center gap-2 text-primary font-bold text-[15px]"
                       href={value.link}
                     >
-                      Visit the website {CaretRight}{" "}
+                      Visit the website{" "}
+                      <span className=" group-hover:tr">{CaretRight}</span>{" "}
                     </Link>
                   </div>
                 </div>

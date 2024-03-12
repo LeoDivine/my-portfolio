@@ -1,16 +1,19 @@
 import React from "react";
-import MaxWidthCont from "./maxwidthcont";
+import MaxWidthCont from "../layout/maxwidthcont";
 import Link from "next/link";
 import { SKILLS } from "@/lib/const";
-import SkillComp from "./skillcomp";
-import Ellipse from "./ellipse";
+import SkillComp from "../skillcomp";
+import Ellipse from "../ellipse";
 
 export default function About() {
   return (
-    <>
-      <Ellipse className=" bg-bgColor mt-[50px] -left-[200px]" />
-      <MaxWidthCont className="bg-secondary">
-        <div id="about" className="w-full z-10 pt-[100px] lg:h-screen pb-[20px] relative">
+    <div className="bg-secondary">
+      <Ellipse className=" 2xl:hidden bg-bgColor mt-[50px] -left-[200px]" />
+      <MaxWidthCont>
+        <div
+          id="about"
+          className="w-full z-10 pt-[100px] lg:h-screen pb-[20px] relative"
+        >
           <div className="flex flex-col lg:flex-row justify-center gap-7">
             <div className="w-full">
               <span className="lg:flex items-center gap-4">
@@ -55,7 +58,7 @@ export default function About() {
           </div>
         </div>
       </MaxWidthCont>
-      <Ellipse className="hidden lg:inline bg-bgColor top-[140%] -right-[70px]" />
-    </>
+      <Ellipse className="hidden 2xl:hidden lg:inline bg-bgColor top-[140%] -right-[70px]" />
+    </div>
   );
 }

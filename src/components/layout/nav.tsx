@@ -1,7 +1,7 @@
 "use client";
 import { NavCloseIcon, NavOpenIcon } from "@/lib/icons";
 import React, { useState } from "react";
-import NavLinksComp from "./navlinkscomp";
+import NavLinksComp from "../navlinkscomp";
 import MaxWidthCont from "./maxwidthcont";
 
 export default function Nav() {

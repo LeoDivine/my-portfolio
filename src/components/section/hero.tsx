@@ -1,20 +1,20 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Ellipse from "./ellipse";
+import Ellipse from "../ellipse";
 import { SOCIALS } from "@/lib/const";
-import SocialMedia from "./socialmedia";
-import MaxWidthCont from "@/components/maxwidthcont";
+import SocialMedia from "../socialmedia";
+import MaxWidthCont from "@/components/layout/maxwidthcont";
 
 export default function Hero() {
   return (
     <>
-      <Ellipse className="bg-secondary -left-[300px] lg:-left-[200px] mt-[40px] " />
+      <Ellipse className="bg-secondary 2xl:hidden -left-[300px] lg:-left-[200px] mt-[40px] " />
       <MaxWidthCont>
         <div className="flex h-screen flex-col items-center justify-center">
           <div className="relative mx-auto lg:flex lg:gap-4 w-full">
             <hgroup className="text-white text-center md:text-center lg:text-left py-[218px]">
-              <p className="lg:text-[18px] text-[15px]">What's good? This is</p>
+              <p className="lg:text-[18px] text-[15px]">What's good? I am</p>
               <h1 className="lg:text-[60px] text-[30px] w-full lg:w-[40%] font-bold">
                 Onyekachukwu Divine.
               </h1>
@@ -45,7 +45,7 @@ export default function Hero() {
                 alt="myimage"
                 height="1000"
                 width="1000"
-                className="lg:w-[480px] lg:mt-[168px]"
+                className="lg:w-[480px] 2xl:rounded-full lg:mt-[168px]"
               />
             </div>
           </div>
