@@ -31,7 +31,7 @@ export default function FormComp() {
       <div className="">
         <input
           type="submit"
-          className=" text-left px-[30px] rounded text-white font-semibold py-[10px] bg-primary "
+          className="cursor-pointer text-left px-[30px] rounded text-white font-semibold py-[10px] bg-primary "
           value="Submit"
         />
       </div>

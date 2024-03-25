@@ -13,8 +13,8 @@ export default function Footer() {
               <SocialMedia key={k} link={social.link} icon={social.icon} />
             ))}
           </div>
-          <div className="text-white font-semibold">
-            <p>© Copyright 2024: Made by Divine Onyekachukwu</p>
+          <div className="text-white text-center font-semibold">
+            <p>© Copyright 2024: Made by Divine Onyekachukwu.</p>
           </div>
         </div>
       </MaxWidthCont>

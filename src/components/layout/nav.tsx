@@ -7,9 +7,9 @@ import MaxWidthCont from "./maxwidthcont";
 export default function Nav() {
   const [openNav, setOpenNav] = useState(false);
   return (
-    <div className=" z-10 relative" onClick={() => setOpenNav(!openNav)}>
+    <div className=" z-30 relative" onClick={() => setOpenNav(!openNav)}>
       {openNav ? (
-        <div className="bg-[#0000009e] w-screen fixed h-screen">
+        <div className="bg-[#000000ac] w-screen z-50 fixed h-screen">
           <div className="bg-white p-[20px] w-full lg:w-[20%] rounded-[10px] absolute lg:right-0 lg:mr-[40px] top-0 lg:mt-[20px]">
             <div className=" absolute cursor-pointer hover:scale-125 transition-all ">
               {NavCloseIcon}

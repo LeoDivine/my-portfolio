@@ -17,7 +17,7 @@ export const NAVLINKS: INAVLINKS[] = [
   },
   {
     linkname: "Hire Me",
-    link: "",
+    link: "#contact",
   },
 ];
 
@@ -83,6 +83,12 @@ export const PROJECTS: IPROJECTS[] = [
     title: "AriariaNG",
     content:
       "mfdofnfnufnuefurnfrunrufnrufnrufnrufrbfybeyfbeyfeyfbeyfbeyfbebycbydbeyjff jvnr rrunru grugrugnrgu rugrugnrgnu",
+    link: "",
+  },
+  {
+    image: "/dummyimage.jpeg",
+    title: "PlatypusSolar",
+    content: "mfdormgrigirif",
     link: "",
   },
   {

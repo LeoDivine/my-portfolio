@@ -8,8 +8,8 @@ import Ellipse from "../ellipse";
 export default function About() {
   return (
     <div className="bg-secondary">
-      <Ellipse className=" 2xl:hidden bg-bgColor mt-[50px] -left-[200px]" />
-      <MaxWidthCont>
+      <Ellipse className=" 2xl:hidden h-[500px] w-[500px] bg-bgColor mt-[50px] -left-[200px]" />
+      <MaxWidthCont className="overflow-x-clip">
         <div
           id="about"
           className="w-full z-10 pt-[100px] lg:h-screen pb-[20px] relative"
@@ -42,7 +42,7 @@ export default function About() {
                 </p>
               </div>
             </div>
-            <div className="w-full">
+            <div className="">
               <span className="lg:flex items-center gap-4">
                 <h4 className="text-center lg:text-left text-[35px] font-bold text-white">
                   My skills
@@ -57,8 +57,8 @@ export default function About() {
             </div>
           </div>
         </div>
+        <Ellipse className="hidden 2xl:hidden lg:inline bg-bgColor h-[500px] w-[500px] -bottom-[100px] -right-[70px]" />
       </MaxWidthCont>
-      <Ellipse className="hidden 2xl:hidden lg:inline bg-bgColor top-[140%] -right-[70px]" />
     </div>
   );
 }
